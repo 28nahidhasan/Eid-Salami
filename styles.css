@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/042/584/259/small/ai-generated-kitty-in-a-stylish-hat-brandishes-a-firearm-confidently-ai-generated-photo.jpg');
+    background-size: cover; 
+    background-position: center;
+    margin: 0;
+    padding: 50px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.5); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-yes {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-no {
+    background-color: #dc3545;
+    color: white;
+    position: absolute; 
+    transition: all 0.3s ease;
+}
+
+.hidden {
+    display: none;
+}
+
+.custom-img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+#typedHeading {
+    display: inline-block;
+    width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid black;  /* Cursor-like effect */
+    animation: typing 3s steps(20) 1s infinite normal both; /* Control animation duration */
+}
+
+/* Styling for the Copy Number button */
+.copy-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Space between the number and the button */
+}
+
+.copy-btn:hover {
+    background-color: #0056b3;
+}
+}
+
+/* Bkash number and copy button beside each other */
+.bkash-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bkash-info p {
+    margin-right: 15px;
+}
+
+.copy-btn {
+    margin-top: 0; /* Adjust space between the number and the button */
+    margin-left: 10px;
+}
+.name-text {
+    position: fixed;  /* Fixes the position of the text */
+    bottom: 22px;     /* Position from the bottom of the screen */
+    left: 20px;       /* Position from the left of the screen */
+    font-size: 18px;  /* Font size */
+    font-weight: bold; /* Optional: Makes text bold */
+    color: white;     /* Text color */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: background for better visibility */
+    padding: 5px;     /* Adds some padding around the text */
+    border-radius: 5px; /* Optional: Slightly rounded corners */
+}
+
